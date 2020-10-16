@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PanelGameOver:MonoBehaviour {
   public Text scoreText;
   void Start() {
-    scoreText.text = FindObjectOfType<GameManager>().scoreText.text;
+    scoreText.text = $"Score: {DataHolder.Score}";
   }
 
   public void Replay() {

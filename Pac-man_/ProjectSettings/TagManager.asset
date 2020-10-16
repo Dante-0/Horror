@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Ghost
   - Health
+  - Pill
   layers:
   - Default
   - TransparentFX
